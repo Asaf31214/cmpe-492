@@ -19,6 +19,11 @@ data/
     └── metadata.csv
 ```
 
-## Notebooks
-- The notebooks related to melanoma studies with the data from ISIC are under `notebooks/melanoma` folder. 
-- Additionally, the `notebooks/pcnl` folder contains the previous works on Pediatric PCNL prediction.
+## Usage
+The project is organized into Jupyter notebooks located in the `notebooks/melanoma` directory:
+- `classification-image-only-baseline-2.0.ipynb`: Image-only ResNet50 baseline.
+- `classification-tabular-only-baseline-1.0.ipynb`: Tabular-only MLP baseline.
+- `classification-multimodal-1.0.ipynb`: Initial multimodal fusion model.
+- `classification-multimodal-hard-neg-1.0.ipynb`: Multimodal model with hard negative mining.
+- `similar-case-retrieval-multimodal.ipynb`: FAISS-based similar case retrieval and visualization.
+- Additionally, the `notebooks/pcnl` folder contains the previous work on Pediatric PCNL prediction.
